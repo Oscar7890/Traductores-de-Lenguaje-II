@@ -1,1 +1,1 @@
-# Traductores-de-Lenguaje-II
+# Seminario de Traductores de Lenguajes-II
