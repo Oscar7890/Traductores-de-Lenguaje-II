@@ -1,4 +1,4 @@
-# Mini Generador Lexico
+# Analizador Lexico
 
 Universidad de Guadalajara 
 
@@ -14,12 +14,19 @@ Alumno: Oscar Daniel Ramirez Salazar
 
 Código: 214448462 
 
+La forma en que captura los identificadores es si solo tiene una letra o si tiene letras y numeros, en caso de tener mas de una letra es considerado como una cadena.
+
+Si el identificador tiene un punto y mas caracteres se le considera como un error, tambien pasa si se quiere escribir reales con solo el punto y agregando numeros;
+Para escribir un real se tiene que agregar algun numero del 0-9 seguido de un punto y mas numeros.
+
+En el caso de los tipos de varible y las palabras reservadas se hace una comparacion de la cadena, si esta coincide con alguno de los casos antes mencionados se toma
+como tipo de variable o palabra reservada, en caso de no ser ninguno se toma como cadena o identificador.
+
+El signo de pesos "$" se toma como fin de la entrada y es señal de que ya no hay mas caracteres que analizar.
+
 # Pruebas
-![image](https://user-images.githubusercontent.com/73807285/130303129-6e43cd64-497d-4342-a042-0a08227fd67e.png)
+![image](https://user-images.githubusercontent.com/73807285/131043481-1c31856a-cf4e-41c7-a600-ffa955510679.png)
 
-![image](https://user-images.githubusercontent.com/73807285/130303178-c3a65bf2-d261-4a71-93db-5647ba9c96c7.png)
-
-![image](https://user-images.githubusercontent.com/73807285/130303077-44479cf1-6951-4371-99a3-a22ed91a4880.png)
 
 
 
