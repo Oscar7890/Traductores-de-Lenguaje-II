@@ -9,11 +9,24 @@ class TipoSimbolo{
 public:
  static const int ERROR= -1;
  static const int IDENTIFICADOR= 0;
- static const int OPADIC= 1;
- static const int OPMULT= 2;
- static const int PESOS= 3;
- static const int ENTERO= 4;
- static const int REAL=5;
+ static const int ENTERO= 1;
+ static const int REAL=2;
+ static const int CADENA=3;
+ static const int TIPO=4;
+ static const int OPSUMA= 5;
+ static const int OPMULT= 6;
+ static const int OPRELAC=7;
+ static const int OPOR=8;
+ static const int OPAND=9;
+ static const int OPNOT=10;
+ static const int OPIGUALDAD=11;
+ static const int PUNTOCOMA=12;
+ static const int COMA=13;
+ static const int PARENTESIS=14;
+ static const int LLAVE=15;
+ static const int IGUAL=16;
+ static const int PALABRESERV=17;
+ static const int PESOS= 18;
 };
 
 

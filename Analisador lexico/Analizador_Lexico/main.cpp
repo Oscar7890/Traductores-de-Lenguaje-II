@@ -10,7 +10,8 @@ int main(int argc, char *argv[]){
 
 
     Lexico lexico;
-    lexico.entrada("aa33.33");
+    lexico.entrada("b aa33.33 1556 275.12 Hola int char float void string class bool +- */ <=>>=< || && ! !=== ; , "
+                   "() {} = if else while return .632");
 
     cout << "Resultado del Analisis Lexico" << endl << endl;
     cout << "Simbolo\t\tTipo" << endl;
