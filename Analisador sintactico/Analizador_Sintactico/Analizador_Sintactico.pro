@@ -1,0 +1,13 @@
+TEMPLATE = app
+CONFIG += console c++11
+CONFIG -= app_bundle
+CONFIG -= qt
+
+SOURCES += \
+        lexico.cpp \
+        main.cpp \
+        pila.cpp
+
+HEADERS += \
+    lexico.h \
+    pila.h
