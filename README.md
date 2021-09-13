@@ -1,4 +1,4 @@
-# Mini Analizador Sintactico
+# Analizador Sintactico
 
 Universidad de Guadalajara 
 
